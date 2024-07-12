@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+.bg-img {
+  background-image: url(../images/bg-img.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.color {
+  color: white;
+}
+.position-setting{
+position-anchor: 1;
+
+}
+.color:hover {
+  color: #f4b323 !important;
+  cursor: pointer !important;
+}
+.font-col-2 {
+  color: #f4b323;
+  cursor: pointer;
+}
+.main-header:hover {
+  color: #f4b323;
+  cursor: pointer;
+}
+.main-header-4 {
+  color: black;
+  transition: all 1s;
+  cursor: pointer;
+}
+.main-header-4:hover {
+  color: #9f4103;
+}
+.main-header {
+  color: #9f4103;
+  transition: all 0.5s;
+}
+.main-header-2 {
+  color: rgb(22, 16, 16);
+}
+.main-header-2:hover {
+  color: #9f4103;
+  cursor: pointer;
+}
+.main-header-3 {
+  color: #fff;
+}
+.main-header-3:hover {
+  color: #9f4103;
+  cursor: pointer;
+}
+.bg-st:focus {
+  outline: none;
+}
+.heading-1 {
+  font-family: "Roboto", sans-serif;
+}
+.heading-2 {
+  font-family: "Spicy Rice", serif;
+}
+.heading {
+  font-family: "Spicy Rice", serif;
+  font-size: 60px;
+}
+.font-size {
+  font-size: 60px;
+}
+.bg-img-2 {
+  background-image: url(./../images/product-section-bg-img_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.color-3 {
+  color: #9f4103;
+  cursor: pointer;
+}
+.color-2 {
+  color: #9f4103;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.color-2:hover {
+  color: #f4b323;
+}
+.bg-color {
+  background-color: #9f4103;
+}
+.bg-color-2:hover {
+  transition: all 0.5s;
+}
+.bg-color-2:hover {
+  background-color: #9f4103;
+  color: rgb(143, 53, 53);
+  cursor: pointer;
+}
+.btn-set-2 {
+  border: 2px solid #9f4103;
+  transition: all 0.5s;
+}
+.btn-set-2:hover {
+  background-color: #f4b323;
+  box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
+.list-setting {
+  height: fit-content;
+  box-sizing: border-box;
+  transition: all 0.1s;
+}
+.list-setting:hover {
+  border-top: 3px solid #9f4103;
+  border-right: 3px solid #9f4103;
+  border-left: 3px solid #f4b323;
+  border-bottom: 3px solid #f4b323;
+}
+.bg-img-3 {
+  background-image: url(./../images/parallax2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.bg-img-4 {
+  height: 100vh;
+  background-image: url(./../images/card\ bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (min-width: 100px) and (max-width: 1200px) {
+  .bg-img-4 {
+    width: 99%;
+    height: fit-content;
+    margin-bottom: 10px;
+  }
+}
+.bg-card-2 {
+  background-image: url(./../images/card\ bg-1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+}
+.bg-card-3 {
+  background-image: url(./../images/card-4\ img.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+}
+.bg-card-4 {
+  background-image: url(./../images/img-card-3.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+}
+.bg-card-5 {
+  background-image: url(./../images/card-img-6.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+}
+.margin-setting {
+  margin-top: 100px;
+}
+.card-bg-1 {
+  background-image: url(./../images/card-bg-1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+}
+.card-bg-2 {
+  background-image: url(./../images/card-bg-2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+}
+.card-bg-3 {
+  background-image: url(./../images/card-bg-3.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+}
+.card-bg-4 {
+  background-image: url(./../images/card-bg-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+}
+.card-bg-5 {
+  height: 100vh;
+  background-image: url(./../images/card-bg-5.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (min-width: 100px) and (max-width: 1200px) {
+  .card-bg-5 {
+    width: 99%;
+    height: fit-content;
+    margin-bottom: 10px;
+  }
+}
+.bg-cards-end-section {
+  background-image: url(./../images/bg-card-end-section.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.list-hover {
+  cursor: pointer;
+}
+.profile-setting {
+  box-sizing: border-box;
+  background-color: #f4b323;
+}
+.profile-setting img:hover {
+  outline: 10px solid #9f4103;
+}
+.child-div img {
+  transition: all 0.5s;
+}
+.content {
+  letter-spacing: 1px;
+  opacity: 0;
+}
+.child-div:hover .content {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.child-div:hover img {
+  transform: scale(1.3);
+}
+.bg-footer {
+  background-image: url(./../images/bg-footer.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg-img-shop {
+  background-image: url(./../images/bg-shop-navbar.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.heading-set {
+  background-color: #e9e9e9;
+  border-left: 5px solid #9f4103;
+}
+.bg-set {
+  background-color: #e9e9e9;
+  border: 3px solid #9f4103;
+}
+.bg-light-1 {
+  background-color: #f4f4f4;
+}
+.hover-set span {
+  background-color: #f4b323;
+  transition: all 0.5s;
+}
+.hover-set:hover span {
+  color: white;
+  background-color: black;
+}
+.hover-set-1:hover li {
+  color: #f4b323;
+}
+.overlay {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  transition: 0.5s ease;
+  opacity: 0;
+}
+.container-1:hover .overlay {
+  opacity: 1;
+}
+.bg-light-2 {
+  background-color: #f4f4f4;
+}
+.bg-color-3 {
+  color: white;
+  transition: all 0.5s;
+}
+.bg-color-3:hover {
+  background-color: #f4b323;
+  color: black;
+}
+.border-6 {
+  border: 1px solid #9f4103;
+}
+.border-6:hover {
+  border: solid 1px #f4b323;
+}
+
+.trasition:hover p{
+  display: block !important;
+  top: 0;
+}
